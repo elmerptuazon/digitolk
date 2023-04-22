@@ -42,4 +42,17 @@ OR
 
 Thank you!
 
+## response
+X.  There were a lot of if statement, 
+    using Auth class to get authenticated user data rather than getting __authenticatedUser, 
+    separate sending email by utilizing event listener and mailable class. For me if it meets
+    the objective of the ticket it is ok for me then optimize it once I have free time. Better
+    if there was a good code review.
+
+Y.  For my solution: I like to maximize laravel features like form validation this will reduce ifs statement,
+    use of event listener for sending email, if there were a lot of array manipulation if this is going to be 
+    used throughout the app then create a service class for reusability. I like to practice solid and dry principle 
+    to enhance my skills. As for the unit test I am not sure what to refactor but I rearrange the condition to check
+    the large expression to smallest.
+
 
